@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F70D5C6028AD45330026C8B9 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70D5C5F28AD45330026C8B9 /* ListView.swift */; };
+		F70D5C6228AD47070026C8B9 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70D5C6128AD47070026C8B9 /* PageView.swift */; };
 		F755EFC928ABB57D00281CA9 /* DisplayJSONApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755EFC828ABB57D00281CA9 /* DisplayJSONApp.swift */; };
 		F755EFCB28ABB57D00281CA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F755EFCA28ABB57D00281CA9 /* ContentView.swift */; };
 		F755EFCD28ABB57F00281CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F755EFCC28ABB57F00281CA9 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F70D5C5F28AD45330026C8B9 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		F70D5C6128AD47070026C8B9 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		F755EFC528ABB57D00281CA9 /* DisplayJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DisplayJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F755EFC828ABB57D00281CA9 /* DisplayJSONApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayJSONApp.swift; sourceTree = "<group>"; };
 		F755EFCA28ABB57D00281CA9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,7 +59,9 @@
 			children = (
 				F755EFC828ABB57D00281CA9 /* DisplayJSONApp.swift */,
 				F755EFCA28ABB57D00281CA9 /* ContentView.swift */,
+				F70D5C6128AD47070026C8B9 /* PageView.swift */,
 				F755EFD628ABB5AA00281CA9 /* userModel.swift */,
+				F70D5C5F28AD45330026C8B9 /* ListView.swift */,
 				F755EFCC28ABB57F00281CA9 /* Assets.xcassets */,
 				F755EFCE28ABB57F00281CA9 /* Preview Content */,
 			);
@@ -140,8 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F70D5C6228AD47070026C8B9 /* PageView.swift in Sources */,
 				F755EFCB28ABB57D00281CA9 /* ContentView.swift in Sources */,
 				F755EFC928ABB57D00281CA9 /* DisplayJSONApp.swift in Sources */,
+				F70D5C6028AD45330026C8B9 /* ListView.swift in Sources */,
 				F755EFD728ABB5AA00281CA9 /* userModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

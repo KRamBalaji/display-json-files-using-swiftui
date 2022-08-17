@@ -14,22 +14,8 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(results, id: \.name) { item in
-                NavigationLink(destination: VStack(){
-                    Text(item.name)
-                        .font(.headline)
-                    Text("\(item.age)")
-                        .font(.subheadline)
-                    Text("\(item.salary)")
-                        .font(.subheadline)
-                }){
-                VStack(alignment: .leading) {
-                    Text(item.name)
-                        .font(.headline)
-                    Text("\(item.age)")
-                        .font(.subheadline)
-                    Text("\(item.salary)")
-                        .font(.subheadline)
-                }
+                NavigationLink(destination: PageView(employee: item)){
+                    ListView(employee: item)
             }
             }
         .navigationTitle("Data")
